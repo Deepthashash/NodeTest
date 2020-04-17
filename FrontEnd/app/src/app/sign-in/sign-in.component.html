@@ -1,0 +1,11 @@
+<form (ngSubmit)="onSubmit(registerForm)" #registerForm="ngForm">
+    <input type="text" id="userName"
+         required
+          name="userName"
+         #userName="ngModel" ngModel>
+    <input type="password" id="password"
+         required
+          name="password"
+         #userName="ngModel" ngModel>
+    <button type="submit">Submit</button>
+  </form>
